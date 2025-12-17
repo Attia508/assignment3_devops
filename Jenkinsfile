@@ -52,7 +52,7 @@ pipeline {
                     echo "Running Selenium Tests..."
                     sudo docker run --rm \
                         --network=ci-network \
-                        -e BASE_URL="http://65.2.83.229:3005" \
+                        -e BASE_URL="http://3.110.207.203:3005" \
                         selenium-tests
                     '''
                 }
