@@ -18,7 +18,7 @@ driver = webdriver.Chrome(options=options)
 wait = WebDriverWait(driver, 30)  # global wait
 
 # ---------------- CONFIGURATION ---------------- #
-BASE_URL = os.environ.get("BASE_URL") or "http://65.2.83.229:3005"
+BASE_URL = os.environ.get("BASE_URL") or "http://3.110.207.203:3005"
 LOGIN_URL = f"{BASE_URL}/auth/login"
 
 print(f"Base URL set to: {BASE_URL}")
